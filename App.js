@@ -2,6 +2,9 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, ScrollView, Image, TextInput, Button } from 'react-native';
 
 export default function App() {
+  const accion = ()=>{
+    Alert.alert("Miau", "Hello Kitty uwu")
+  }
   return (
     <ScrollView style={styles.container}>
       <Text>hello world, im lu</Text>
@@ -12,6 +15,7 @@ export default function App() {
             uri: 'https://media.giphy.com/media/QoxjcvbhMRwROVGCK4/giphy.gif',
           }}
           style={{width: 200, height: 200}}/>
+          <Button title="ejecuta el hola mundo" onPress={accion}/>
       </View>
       <TextInput
         style={{
