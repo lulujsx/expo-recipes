@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, ScrollView, Image, TextInput } from 'react-native';
+import { StyleSheet, Text, View, ScrollView, Image, TextInput, Button } from 'react-native';
 
 export default function App() {
   return (
@@ -9,7 +9,7 @@ export default function App() {
       <View>
         <Text>This is a kitty</Text>
         <Image source={{
-            uri: 'https://reactnative.dev/docs/assets/p_cat2.png',
+            uri: 'https://media.giphy.com/media/QoxjcvbhMRwROVGCK4/giphy.gif',
           }}
           style={{width: 200, height: 200}}/>
       </View>
