@@ -4,7 +4,7 @@ import { widthPercentageToDP as wp, heightPercentageToDP as hp } from "react-nat
 import Animated,{ useSharedValue, withSpring } from "react-native-reanimated"
 import { useEffect } from "react"
 import { useNavigation } from "@react-navigation/native"
-import styles from "./style"
+import styles from "./styles"
 import { StyleSheet } from "react-native"
 
 export default function WelcomeScreen() {
