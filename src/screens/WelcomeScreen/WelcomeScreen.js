@@ -29,7 +29,7 @@ export default function WelcomeScreen() {
             {/* logo image */}
 
             <View style={styles.ring}>
-                <Image source={require('../../assets/images/welcome.png')} 
+                <Image source={require('../../../assets/images/welcome.png')} 
                        style={{width: hp(20), height: hp(20)}}/>
             </View>
  
